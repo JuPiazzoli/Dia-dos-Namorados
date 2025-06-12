@@ -1,0 +1,23 @@
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffeef2;
+  border-bottom: 2px solid #e0a0b0;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #c0396b;
+  margin: 0;
+  text-align: center ;
+  
+}
+
+.header-logo {
+  height: 80px;
+  width: auto;
+  object-fit: contain;
+}

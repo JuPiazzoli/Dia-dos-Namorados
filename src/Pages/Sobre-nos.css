@@ -1,0 +1,19 @@
+.sobre-nos {
+  padding: 2rem;
+  background-color: #fffdfd;
+}
+
+.titulo-sobre {
+  text-align: center;
+  color: #b9124c;
+  margin-bottom: 2rem;
+}
+
+.texto-sobre {
+  font-size: 1.1rem;
+  color: #4c1c2c;
+  line-height: 1.6;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}

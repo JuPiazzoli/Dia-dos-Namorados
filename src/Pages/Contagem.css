@@ -1,0 +1,61 @@
+.contagem-container {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fffafc;
+}
+
+.contagem-titulo {
+  font-size: 2rem;
+  color: #d81b60;
+  margin-bottom: 1.5rem;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.5rem;
+  color: #880e4f;
+  margin-bottom: 2rem;
+}
+
+.contador div {
+  background-color: #fce4ec;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 100px;
+}
+
+.contador span {
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+}
+
+.texto-fofo {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  color: #5c254d;
+  line-height: 1.6;
+}
+
+.contagem-imagens {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.contagem-imagens img {
+  width: 250px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.extra-mensagem {
+  font-size: 1.2rem;
+  color: #ad1457;
+  margin-top: 2rem;
+}
