@@ -10,11 +10,26 @@
   width: 100%;
   height: 350px;
   object-fit: cover;
-  border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #e91e63;
+  color: #af0303;
+}
+
+@media (max-width: 600px) {
+  .slider-img {
+    height: 200px; /* Diminui a altura da imagem no celular */
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #af0303;
+    scale: 0.8; /* Botões um pouco menores no celular */
+  }
+
+  .slider-container {
+    padding: 1.5rem 0.5rem;
+  }
 }

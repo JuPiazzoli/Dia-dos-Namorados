@@ -1,44 +1,60 @@
+
 .contagem-container {
   padding: 2rem;
   text-align: center;
-  background-color: #fffafc;
+  background-color: #ffffff; 
 }
 
+
 .contagem-titulo {
-  font-size: 2rem;
-  color: #d81b60;
+  font-size: 2.4rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #af0303; 
   margin-bottom: 1.5rem;
+  font-weight: bold;
 }
+
 
 .contador {
   display: flex;
   justify-content: center;
   gap: 2rem;
   font-size: 1.5rem;
-  color: #880e4f;
+  color: #af0303; 
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
+
 .contador div {
-  background-color: #fce4ec;
+  background-color: #000000; 
   padding: 1rem;
-  border-radius: 12px;
-  width: 100px;
+  width: 110px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
 }
+
+.contador div:hover {
+  transform: scale(1.05);
+}
+
 
 .contador span {
   font-size: 2rem;
   font-weight: bold;
   display: block;
+  color: #af0303; 
 }
+
 
 .texto-fofo {
   max-width: 700px;
   margin: 0 auto 2rem;
   font-size: 1.1rem;
-  color: #5c254d;
+  color: #000000; 
   line-height: 1.6;
 }
+
 
 .contagem-imagens {
   display: flex;
@@ -50,12 +66,47 @@
 
 .contagem-imagens img {
   width: 250px;
-  border-radius: 14px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
 
 .extra-mensagem {
   font-size: 1.2rem;
-  color: #ad1457;
+  color: #8c0202; 
   margin-top: 2rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .contagem-titulo {
+    font-size: 1.8rem;
+  }
+
+  .contador {
+    gap: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .contador div {
+    width: 90px;
+    padding: 0.8rem;
+  }
+
+  .contador span {
+    font-size: 1.5rem;
+  }
+
+  .texto-fofo {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .contagem-imagens img {
+    width: 150px;
+  }
+
+  .extra-mensagem {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
 }

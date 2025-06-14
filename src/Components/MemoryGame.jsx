@@ -80,6 +80,14 @@ function MemoryGame() {
     setLockBoard(false);
   };
 
+  const restartGame = () => {
+    setCards(shuffleCards());
+    setFirstCard(null);
+    setSecondCard(null);
+    setLockBoard(false);
+    setCompleted(false);
+  };
+
   return (
     <div className="memory-game">
       <h2>Jogo da Memória do Amor</h2>
@@ -97,7 +105,16 @@ function MemoryGame() {
           </div>
         ))}
       </div>
-      {completed && <p className="mensagem-final">Você encontrou todos os pares! Nosso amor é mesmo inesquecível! 💘</p>}
+      {completed && (
+        <div>
+          <p className="mensagem-final">
+            Você encontrou todos os pares! Nosso amor é mesmo inesquecível! (hahaha!)
+          </p>
+          <button className="restart-button" onClick={restartGame}>
+            Jogar Novamente
+          </button>
+        </div>
+      )}
     </div>
   );
 }
