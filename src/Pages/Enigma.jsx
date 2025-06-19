@@ -46,6 +46,7 @@ function Enigma() {
             4️) Subtraia a quantidade de letras do seu nome completo (sem
             espaços).
             <br />
+            5️) Adicione uma unidade de amor!
             <br />
             💡 Dica: Use ponto ou vírgula se precisar. Exemplo: 20.32 ou 20,32
           </p>
